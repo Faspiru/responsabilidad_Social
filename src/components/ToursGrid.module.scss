@@ -1,0 +1,28 @@
+.loaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, var(--size));
+  gap: 16px;
+  justify-content: center;
+  max-width: min(calc(5 * var(--size) + 4 * 16px), 100%);
+  margin: auto;
+
+  --size: 160px;
+
+  &.large {
+    --size: 260px;
+  }
+
+  &.medium {
+    --size: 200px;
+  }
+
+  &.base {
+    --size: 160px;
+  }
+}

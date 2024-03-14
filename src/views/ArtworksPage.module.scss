@@ -1,0 +1,63 @@
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  padding: 150px;
+  background: lightgray 50%;
+  background-size: cover;
+  @media (max-width: 800px) {
+    padding: 64px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.199) 0.01%,
+      rgba(255, 255, 255, 0.699) 100%
+    );
+  }
+}
+
+.contentTitle {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+  max-width: 480px;
+  color: black;
+}
+
+.description {
+  font-size: 1.5em;
+
+  @media (max-width: 800px) {
+    font-size: 1.2em;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 1em;
+  }
+}
+
+.description {
+  font-size: 1.5em;
+}
+
+.content {
+  padding-bottom: 64px;
+}
+
+.artworks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 16px;
+  padding: 0 32px;
+}
