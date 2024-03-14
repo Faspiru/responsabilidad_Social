@@ -24,7 +24,7 @@ export default function HomePage() {
             obras y muchas cosas más!
           </p>
           <Button href="/login" size="large">
-            A jugar papi
+            A jugar papiiii
           </Button>
         </div>
       </header>
