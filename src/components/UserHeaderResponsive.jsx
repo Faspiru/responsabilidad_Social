@@ -31,7 +31,7 @@ export default function UserHeaderResponsive() {
         </div>
       </div>
       <div className={`${styles.sideBar} ${isOpen ? styles.sideBarOpen : ""}`}>
-        <PublicSideBar />
+        <PublicSideBar isOpen={isOpen} setIsOpen={setIsOpen} />
       </div>
     </div>
   );
