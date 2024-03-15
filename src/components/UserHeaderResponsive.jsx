@@ -12,24 +12,26 @@ export default function UserHeaderResponsive() {
     setIsOpen(!isOpen);
   };
 
+  const handleCloseSidebar = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div>
-      <div>
-        <div
-          className={`${styles.sideBar} ${isOpen ? styles.sideBarOpen : ""}`}
-        >
-          <PublicSideBar></PublicSideBar>
-        </div>
-      </div>
+      {/* Capa semi-transparente detrás del sidebar */}
+      {isOpen && (
+        <div className={styles.overlay} onClick={handleCloseSidebar} />
+      )}
       <div className={styles.container}>
         <Link to="/">
-          <img src={logoImage} className={styles.logoImg}></img>
+          <img src={logoImage} className={styles.logoImg} alt="Logo" />
         </Link>
-        <>
-          <div onClick={handleClick}>
-            <HamburgerMenu></HamburgerMenu>
-          </div>
-        </>
+        <div onClick={handleClick}>
+          <HamburgerMenu isOpen={isOpen} />
+        </div>
+      </div>
+      <div className={`${styles.sideBar} ${isOpen ? styles.sideBarOpen : ""}`}>
+        <PublicSideBar />
       </div>
     </div>
   );
