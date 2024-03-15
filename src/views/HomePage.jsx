@@ -38,8 +38,8 @@ export default function HomePage() {
               <img src={missionImage} alt="" />
             </div>
             <div className={styles.content}>
-              <h3>Nuestra misión</h3>
-              <p>
+              <h3 className={styles.paragraph}>Nuestra misión</h3>
+              <p className={styles.paragraph}>
                 Ofrecer un servicio de recorridos guíados por las distintas
                 obras de arte expuestas en la Universidad Metropolitana.
               </p>
@@ -50,8 +50,8 @@ export default function HomePage() {
               <img src={ArtesaniaImage} alt="" />
             </div>
             <div className={styles.content}>
-              <h3>Nuestra visión</h3>
-              <p>
+              <h3 className={styles.paragraph}>Nuestra visión</h3>
+              <p className={styles.paragraph}>
                 Fomentar el interés por las obras de arte expuestas en la
                 Universidad Metropolitana.
               </p>
@@ -62,8 +62,8 @@ export default function HomePage() {
               <img src={salaMendozaImage} alt="" />
             </div>
             <div className={styles.content}>
-              <h3>Nuestro objetivo</h3>
-              <p>
+              <h3 className={styles.paragraph}>Nuestro objetivo</h3>
+              <p className={styles.paragraph}>
                 Incentivar a todas los estudiantes y profesores de la
                 Universidad Metropoltiana, a conocer las obras de arte expuestas
                 en el campus, así como ofrecerles un sistema de recorridos
