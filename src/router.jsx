@@ -4,21 +4,22 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Layout from "./components/Layout";
-import ArtworksPage from "./views/ArtworksPage";
-import CalendarPage from "./views/CalendarPage";
+import CronogramaPage from "./views/CronogramaPage";
 import ErrorPage from "./views/ErrorPage";
 import HomePage from "./views/HomePage";
-import ToursPage from "./views/ToursPage";
+import MetodologiaPage from "./views/MetodologiaPage";
+import OdsPage from "./views/OdsPage";
+import QuienesSomosPage from "./views/QuienesSomosPage";
 
 export default createBrowserRouter(
   createRoutesFromElements(
     <Route errorElement={<ErrorPage />}>
       <Route element={<Layout />}>
         <Route path="/" element={<HomePage />} />
-        <Route path="/calendario" element={<CalendarPage />} />
-        <Route path="/obras" element={<ArtworksPage />} />
-        <Route path="/tours" element={<ToursPage />} />
-        <Route path="/buscar" element={<ToursPage />} />
+        <Route path="/cronograma" element={<CronogramaPage />} />
+        <Route path="/ods" element={<OdsPage />} />
+        <Route path="/metodologiaYactividades" element={<MetodologiaPage />} />
+        <Route path="/quienesSomos" element={<QuienesSomosPage />} />
       </Route>
     </Route>
   )

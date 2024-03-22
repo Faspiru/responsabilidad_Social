@@ -1,6 +1,6 @@
 import MediaQuery from "react-responsive";
 import { Link } from "react-router-dom";
-import logoImage from "../assets/LogoSartViews.svg";
+import logoImage from "../assets/LogoCodigoFuturo.svg";
 import styles from "./Footer.module.scss";
 
 export default function Footer() {

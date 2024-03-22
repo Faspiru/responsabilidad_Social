@@ -1,9 +1,9 @@
 import { useState } from "react";
 import CalendarImage from "../assets/CalendarImage.jpeg";
 import { formatDate } from "../utils/date";
-import styles from "./CalendarPage.module.scss";
+import styles from "./CronogramaPage.module.scss";
 
-export default function CalendarPage() {
+export default function CronogramaPage() {
   const [date, setDate] = useState(formatDate(new Date()));
 
   return (

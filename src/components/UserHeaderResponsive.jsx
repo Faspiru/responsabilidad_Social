@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../assets/LogoSartViews.svg";
+import logoImage from "../assets/LogoCodigoFuturo.svg";
 import HamburgerMenu from "./HamburgerMenu";
 import PublicSideBar from "./PublicSideBar";
 import styles from "./UserHeaderResponsive.module.scss";

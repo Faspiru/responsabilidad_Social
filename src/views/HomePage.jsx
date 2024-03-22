@@ -3,7 +3,6 @@ import salaMendozaImage from "../assets/SalaMendoza.jpg";
 import ArtesaniaImage from "../assets/SalaMendozaArtesania.jpg";
 import bannerImage from "../assets/home-banner.png";
 import missionImage from "../assets/home-mission.png";
-import Button from "../components/Button";
 import Divider from "../components/Divider";
 import styles from "./HomePage.module.scss";
 
@@ -16,16 +15,14 @@ export default function HomePage() {
         style={{ backgroundImage: `url(${bannerImage})` }}
       >
         <div className={styles.bannerContent}>
-          <h1>Vive la experiencia SartView</h1>
+          <h1>Vive la experiencia de Codigo Para El Futuro!</h1>
           <p>
-            Bienvenido a SartViews! en este website podrás conocer lo más
-            relevante sobre las obras de arte integradas a la Unimet. Así mismo,
-            podrás realizar reservas para paseos guiados en referencia a estas
-            obras y muchas cosas más!
+            Bienvenido a Codigo Para el Futuro! en este website podrás conocer
+            un poco sobre esta nueva propuesta de proyecto para servicio
+            comunitario. A continuación se encuentra nuestro propósito, los
+            objetivos de desarrollo sostenible asociados, los recursos
+            requeridos, la población beneficiada y mucho más!
           </p>
-          <Button href="/login" size="large">
-            A jugar papiiii
-          </Button>
         </div>
       </header>
       <section>

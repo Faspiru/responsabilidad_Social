@@ -1,11 +1,11 @@
 import { Helmet } from "react-helmet-async";
 import obrasBack from "../assets/obrasBack.jpg";
-import styles from "./ArtworksPage.module.scss";
+import styles from "./OdsPage.module.scss";
 
-export default function ArtworksPage() {
+export default function OdsPage() {
   return (
     <>
-      <Helmet title="Obras"></Helmet>
+      <Helmet title="ODS"></Helmet>
       <header
         className={styles.banner}
         style={{ backgroundImage: `url(${obrasBack})` }}

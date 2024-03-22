@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import unimet from "../assets/unimet.jpg";
 import Divider from "../components/Divider";
-import styles from "./ToursPage.module.scss";
+import styles from "./QuienesSomos.module.scss";
 
-export default function ToursPage() {
+export default function QuienesSomosPage() {
   return (
     <>
       <Helmet title="Obras"></Helmet>
@@ -24,6 +24,11 @@ export default function ToursPage() {
           </div>
         </div>
       </header>
+      <section>
+        <Divider>
+          <h2>SOBRE NOSOTROS</h2>
+        </Divider>
+      </section>
       <section>
         <Divider>
           <h2>Próximos Tours</h2>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoImage from "../assets/LogoSartViews.svg";
+import logoImage from "../assets/LogoCodigoFuturo.svg";
 import styles from "./PublicSideBar.module.scss";
 
 export default function PublicSideBar({ isOpen, setIsOpen }) {
@@ -17,17 +17,25 @@ export default function PublicSideBar({ isOpen, setIsOpen }) {
       <Link to="/" onClick={handleClick} className={styles.option}>
         Inicio
       </Link>
-      <Link to="/obras" onClick={handleClick} className={styles.option}>
-        Obras
+      <Link to="/ods" onClick={handleClick} className={styles.option}>
+        ODS
       </Link>
-      <Link to="/tours" onClick={handleClick} className={styles.option}>
-        Tours
+      <Link
+        to="/metodologiaYactividades"
+        onClick={handleClick}
+        className={styles.option}
+      >
+        Metodologia y Actividades
       </Link>
-      <Link to="/calendario" onClick={handleClick} className={styles.option}>
-        Calendario
+      <Link to="/cronograma" onClick={handleClick} className={styles.option}>
+        Cronograma
       </Link>
-      <Link to="/buscar" onClick={handleClick} className={styles.optionSpe}>
-        Buscar
+      <Link
+        to="/quienesSomos"
+        onClick={handleClick}
+        className={styles.optionSpe}
+      >
+        ¿Quiénes Somos?
       </Link>
     </div>
   );

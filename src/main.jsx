@@ -8,7 +8,10 @@ import router from "./router";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
-      <Helmet titleTemplate="%s | Sart Views" defaultTitle="Sart Views" />
+      <Helmet
+        titleTemplate="%s | Codigo Para el Futuro"
+        defaultTitle="Codigo Para el Futuro"
+      />
       <RouterProvider router={router} />
     </HelmetProvider>
   </React.StrictMode>
