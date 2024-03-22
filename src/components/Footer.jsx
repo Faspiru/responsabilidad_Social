@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
           <div className={styles.textContainer}>
             <div>0414-5324589</div>
-            <div>SartViews@unimet.edu.ve</div>
+            <div>CódigoParaElFuturo@unimet.edu.ve</div>
             <div>Universidad Metropolitana</div>
           </div>
         </div>

@@ -15,9 +15,9 @@ export default function HomePage() {
         style={{ backgroundImage: `url(${bannerImage})` }}
       >
         <div className={styles.bannerContent}>
-          <h1>Vive la experiencia de Codigo Para El Futuro!</h1>
+          <h1>Vive la experiencia de Código Para El Futuro!</h1>
           <p>
-            Bienvenido a Codigo Para el Futuro! en este website podrás conocer
+            Bienvenido a Código Para el Futuro! en este website podrás conocer
             un poco sobre esta nueva propuesta de proyecto para servicio
             comunitario. A continuación se encuentra nuestro propósito, los
             objetivos de desarrollo sostenible asociados, los recursos
