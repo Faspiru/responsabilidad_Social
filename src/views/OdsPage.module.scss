@@ -2,8 +2,9 @@
   position: relative;
   z-index: -1;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   padding: 70px 150px 70px 150px;
+  text-align: center;
   background: lightgray 50%;
   background-size: cover;
   @media (max-width: 800px) {
@@ -44,7 +45,7 @@
 }
 
 .description {
-  font-size: 1.5em;
+  font-size: 1.3em;
 
   @media (max-width: 800px) {
     font-size: 1.2em;
@@ -56,7 +57,7 @@
 }
 
 .description {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .content {
