@@ -2,8 +2,10 @@ import { Helmet } from "react-helmet-async";
 import adolescentesImage from "../assets/adolescentesImage.jpeg";
 import aliadosImage from "../assets/aliadosImage.jpeg";
 import codigoImage from "../assets/codigoImage.jpeg";
-import contextoImage from "../assets/contextoImage.jpeg";
-import finalidadImage from "../assets/finalidadImage.jpeg";
+import {
+  default as contextoImage,
+  default as finalidadImage,
+} from "../assets/contextoImage.jpeg";
 import bannerImage from "../assets/home-banner.png";
 import proposito2Image from "../assets/proposito2Image.jpeg";
 import propositoImage from "../assets/propositoImage.jpeg";
