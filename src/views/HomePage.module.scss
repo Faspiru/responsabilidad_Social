@@ -1,7 +1,10 @@
 .banner {
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 150px;
   color: white;
+  text-align: center;
   background-size: cover;
 
   @media (max-width: 800px) {
@@ -45,7 +48,7 @@
   .group {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 64px;
+    gap: 100px;
     align-items: center;
     max-width: 1000px;
 
@@ -94,5 +97,9 @@
 
   .paragraph {
     text-align: center;
+  }
+
+  .negrita {
+    font-weight: bold;
   }
 }

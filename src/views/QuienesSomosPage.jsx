@@ -1,4 +1,8 @@
 import { Helmet } from "react-helmet-async";
+import codigoImage from "../assets/codigoImage.jpeg";
+import contextoImage from "../assets/contextoImage.jpeg";
+import fabrizioImage from "../assets/fabrizioImage.jpeg";
+import proposito2Image from "../assets/proposito2Image.jpeg";
 import unimet from "../assets/unimet.jpg";
 import Divider from "../components/Divider";
 import styles from "./QuienesSomos.module.scss";
@@ -13,14 +17,13 @@ export default function QuienesSomosPage() {
       >
         <div className={styles.contentTitle}>
           <h1>
-            Conoce los tours de las obras de arte de la Universidad
-            Metropolitana
+            Conoce un poco más sobre los creadores de esta nueva propuesta de
+            proyecto para servicio comunitario
           </h1>
           <div className={styles.description}>
-            En este apartado, se encuentran todos los tours ofertados hacia los
-            clientes. Al hacer click en alguno de ellos se puede visualizar más
-            información acerca de los mismo, así como realizar reservaciones
-            respectivas
+            En este apartado, se encuentran los integrantes de la propuesta de
+            proyecto, a continuación se puede conocer sobre ellos y cual es su
+            trayectoria en la Universidad Metropoolitana
           </div>
         </div>
       </header>
@@ -30,20 +33,66 @@ export default function QuienesSomosPage() {
         </Divider>
       </section>
       <section>
-        <Divider>
-          <h2>Próximos Tours</h2>
-        </Divider>
-        <h1>Hola</h1>
-      </section>
-      <section>
-        <Divider>
-          <h2>Tour Populares</h2>
-        </Divider>
-      </section>
-      <section>
-        <Divider>
-          <h2>Tour Nuevos</h2>
-        </Divider>
+        <div className={styles.aboutUs}>
+          <div className={styles.group}>
+            <div className={styles.image}>
+              <img src={codigoImage} alt="" />
+            </div>
+            <div className={styles.content}>
+              <h3 className={styles.paragraph}>María Victoria Martinez</h3>
+              <p className={styles.paragraph}>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+                distinctio soluta sequi ea. Tempora minima sequi quae nemo
+                quisquam accusamus, ut consectetur iste nihil repellat, vitae
+                adipisci debitis, reiciendis ab.
+              </p>
+            </div>
+          </div>
+          <div className={styles.group}>
+            <div className={styles.image}>
+              <img src={contextoImage} alt="" />
+            </div>
+            <div className={styles.content}>
+              <h3 className={styles.paragraph}>Daniel Morillo</h3>
+              <p className={styles.paragraph}>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus, aperiam nihil iusto error tenetur, quod quae
+                inventore, deleniti voluptas magni harum nobis eveniet tempora
+                dolores natus perferendis obcaecati vitae expedita?
+              </p>
+            </div>
+          </div>
+          <div className={styles.group}>
+            <div className={styles.image}>
+              <img src={fabrizioImage} alt="" />
+            </div>
+            <div className={styles.content}>
+              <h3 className={styles.paragraph}>Fabrizio Spiotta</h3>
+              <p className={styles.paragraph}>
+                Hola! Mi nombre es Fabrizio Spiotta, tengo 20 años y actualmente
+                me encuentro en el octavo trimestre estudiando Ingeniería en
+                Sistemas. Personalmente siento que esta propuesta de proyecto es
+                de vital importancia, debido a que se transmiten los
+                conocimientos básicos de la programación a las futuras
+                generaciones
+              </p>
+            </div>
+          </div>
+          <div className={styles.group}>
+            <div className={styles.image}>
+              <img src={proposito2Image} alt="" />
+            </div>
+            <div className={styles.content}>
+              <h3 className={styles.paragraph}>María Victoria Tatoli</h3>
+              <p className={styles.paragraph}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus hic consectetur totam fuga harum tenetur tempore, ab
+                dolorum fugit maiores corporis vel esse ipsa, ea rerum assumenda
+                alias veniam laboriosam!
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );

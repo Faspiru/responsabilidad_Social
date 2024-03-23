@@ -30,7 +30,7 @@ export default function Header() {
             <Link to="/cronograma" className={styles.links}>
               Cronograma
             </Link>
-            <Link to="/quienesSomos" className={styles.buscar}>
+            <Link to="/quienesSomos" className={styles.links}>
               ¿Quiénes Somos?
             </Link>
           </div>
