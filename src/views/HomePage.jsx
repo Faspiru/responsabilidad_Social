@@ -1,10 +1,10 @@
 import { Helmet } from "react-helmet-async";
-import finalidadImage from "../assets/FinalidadImage.jpeg";
 import adolescentesImage from "../assets/adolescentesImage.jpeg";
 import aliadosImage from "../assets/aliadosImage.jpeg";
 import codigoImage from "../assets/codigoImage.jpeg";
 import contextoImage from "../assets/contextoImage.jpeg";
 import bannerImage from "../assets/home-banner.png";
+import imageFinalidad from "../assets/imageFinalidad.jpeg";
 import proposito2Image from "../assets/proposito2Image.jpeg";
 import propositoImage from "../assets/propositoImage.jpeg";
 import Divider from "../components/Divider";
@@ -96,7 +96,7 @@ export default function HomePage() {
           </div>
           <div className={styles.group}>
             <div className={styles.image}>
-              <img src={finalidadImage} alt="" />
+              <img src={imageFinalidad} alt="" />
             </div>
             <div className={styles.content}>
               <h3 className={styles.paragraph}>Finalidad</h3>
