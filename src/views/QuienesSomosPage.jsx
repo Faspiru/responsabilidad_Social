@@ -3,6 +3,7 @@ import codigoImage from "../assets/codigoImage.jpeg";
 import contextoImage from "../assets/contextoImage.jpeg";
 import fabrizioImage from "../assets/fabrizioImage.jpeg";
 import proposito2Image from "../assets/proposito2Image.jpeg";
+import DanImage from "../assets/dan.jpeg";
 import unimet from "../assets/unimet.jpg";
 import Divider from "../components/Divider";
 import styles from "./QuienesSomos.module.scss";
@@ -50,15 +51,16 @@ export default function QuienesSomosPage() {
           </div>
           <div className={styles.group}>
             <div className={styles.image}>
-              <img src={contextoImage} alt="" />
+              <img src={DanImage} alt="" />
             </div>
             <div className={styles.content}>
               <h3 className={styles.paragraph}>Daniel Morillo</h3>
               <p className={styles.paragraph}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus, aperiam nihil iusto error tenetur, quod quae
-                inventore, deleniti voluptas magni harum nobis eveniet tempora
-                dolores natus perferendis obcaecati vitae expedita?
+                Hola! Mi nombre es Daniel Morillo, soy estudiante del Octavo 
+                Trimestre de la carrera de Ingeniería de Sistemas en la UNIMET.
+                Me encantaría poder compartir mis conocimientos con personas que 
+                estén dispuestas a aprender y así aportar mi granito de arena en 
+                la comunidad.
               </p>
             </div>
           </div>
@@ -74,7 +76,7 @@ export default function QuienesSomosPage() {
                 Sistemas. Personalmente siento que esta propuesta de proyecto es
                 de vital importancia, debido a que se transmiten los
                 conocimientos básicos de la programación a las futuras
-                generaciones
+                generaciones.
               </p>
             </div>
           </div>
