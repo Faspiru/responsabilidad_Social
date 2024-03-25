@@ -27,8 +27,12 @@ export default function PublicSideBar({ isOpen, setIsOpen }) {
       >
         Metodologia y Actividades
       </Link>
-      <Link to="/cronograma" onClick={handleClick} className={styles.option}>
-        Cronograma
+      <Link
+        to="/contextoYComunidad"
+        onClick={handleClick}
+        className={styles.option}
+      >
+        Contexto y Comunidad
       </Link>
       <Link
         to="/quienesSomos"

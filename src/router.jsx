@@ -4,7 +4,7 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Layout from "./components/Layout";
-import CronogramaPage from "./views/CronogramaPage";
+import ContextoPage from "./views/CronogramaPage";
 import ErrorPage from "./views/ErrorPage";
 import HomePage from "./views/HomePage";
 import MetodologiaPage from "./views/MetodologiaPage";
@@ -16,7 +16,7 @@ export default createBrowserRouter(
     <Route errorElement={<ErrorPage />}>
       <Route element={<Layout />}>
         <Route path="/" element={<HomePage />} />
-        <Route path="/cronograma" element={<CronogramaPage />} />
+        <Route path="/contextoYComunidad" element={<ContextoPage />} />
         <Route path="/ods" element={<OdsPage />} />
         <Route path="/metodologiaYactividades" element={<MetodologiaPage />} />
         <Route path="/quienesSomos" element={<QuienesSomosPage />} />

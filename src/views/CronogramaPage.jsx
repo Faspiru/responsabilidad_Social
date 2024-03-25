@@ -39,8 +39,8 @@ export default function CronogramaPage() {
               <i>
                 La programación es fundamental en el mundo moderno debido a su
                 capacidad para resolver problemas, automatizar tareas, crear
-                sistemas y aplicaciones que facilitan la vida cotidiana.
-                Asimismo, permite traducir ideas innovadoras en soluciones
+                sistemas y aplicaciones que facilitan la vida cotidiana. Así
+                mismo, permite traducir ideas innovadoras en soluciones
                 tecnológicas concretas, abriendo el camino para avances en
                 campos tan diversos como la medicina, la educación, la industria
                 y el entretenimiento.{" "}
@@ -122,16 +122,16 @@ export default function CronogramaPage() {
             </div>
             <div className={styles.content}>
               <h3 className={styles.paragraph}>Recursos</h3>
-              <p className={styles.paragraph}>- Infraestructura</p>
+              <p className={styles.paragraph}>● Infraestructura</p>
               <p className={styles.paragraph}>
-                - Computadoras y Acceso a Internet
+                ● Computadoras y Acceso a Internet
               </p>
               <p className={styles.paragraph}>
-                - Personas capacitadas en programación, específico el lenguaje
+                ● Personas capacitadas en programación, específico el lenguaje
                 Python
               </p>
               <p className={styles.paragraph}>
-                - Personas capacitadas para la preparación de entrevistas y la
+                ● Personas capacitadas para la preparación de entrevistas y la
                 orientación profesional
               </p>
             </div>
@@ -175,7 +175,7 @@ export default function CronogramaPage() {
       </section>
       <section>
         <Divider>
-          <h2>Comunidad y Aliados</h2>
+          <h2>COMUNIDAD Y ALIADOS</h2>
         </Divider>
         <div className={styles.aboutUs}>
           <div className={styles.group}>
@@ -190,8 +190,8 @@ export default function CronogramaPage() {
                 desempeña un papel crucial al brindarnos los recursos necesarios
                 para este proyecto, siendo esto el recurso humano dado por sus
                 profesores y estudiantes; los recursos de infraestructura y
-                materiales al ofrecer acceso a sus instalaciones y recursos
-                tecnológicos; y su red de contactos que facilita las
+                materiales al ofrecer acceso a sus instalaciones; los recursos
+                tecnológicos y su red de contactos que facilita las
                 oportunidades de networking con la comunidad
               </p>
             </div>

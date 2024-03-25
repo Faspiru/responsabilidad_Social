@@ -27,7 +27,7 @@ export default function Header() {
             <Link to="/metodologiaYactividades" className={styles.links}>
               Metodologia y Actividades
             </Link>
-            <Link to="/cronograma" className={styles.links}>
+            <Link to="/contextoYComunidad" className={styles.links}>
               Contexto y Comunidad
             </Link>
             <Link to="/quienesSomos" className={styles.links}>
