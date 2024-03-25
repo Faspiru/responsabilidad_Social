@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import MediaQuery from "react-responsive";
 import educacionImage from "../assets/educacionImage.jpeg";
 import emprendimientoImage from "../assets/emprendimientoImage.jpeg";
 import odsBack from "../assets/fondoODS.jpeg";
@@ -32,7 +33,12 @@ export default function OdsPage() {
         </div>
       </header>
       <Divider>
-        <h2>OBJETIVOS DE DESARROLLO SOSTENIBLE</h2>
+        <MediaQuery maxWidth={599}>
+          <h2>ODS</h2>
+        </MediaQuery>
+        <MediaQuery minWidth={600}>
+          <h2>OBJETIVOS DE DESARROLLO SOSTENIBLE</h2>
+        </MediaQuery>
       </Divider>
       <div className={styles.aboutUs}>
         <div className={styles.group}>
@@ -81,7 +87,12 @@ export default function OdsPage() {
         </div>
       </div>
       <Divider>
-        <h2>ÁREAS A LAS QUE PERTENECE EL PROYECTO</h2>
+        <MediaQuery maxWidth={599}>
+          <h2>ÁREAS DEL PROYECTO</h2>
+        </MediaQuery>
+        <MediaQuery minWidth={600}>
+          <h2>ÁREAS A LAS QUE PERTENECE EL PROYECTO</h2>
+        </MediaQuery>
       </Divider>
       <div className={styles.aboutUsCo}>
         <div className={styles.groupCo}>
