@@ -102,6 +102,9 @@
 
 .logoImg {
   margin-top: 20px;
+  &:active {
+    transform: scale(0.95);
+  }
 }
 
 .photo img {
