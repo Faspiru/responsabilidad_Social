@@ -5,7 +5,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 180px;
+  height: 350px;
   margin-top: 50px;
   padding: 0px 32px 0px 32px;
   border-radius: 0px;
@@ -26,15 +26,18 @@
     top: 44px;
     left: 224px;
     display: flex;
-    flex-direction: row;
-    gap: 100px;
-    align-items: center;
+    flex-direction: column;
+    gap: 25px;
     justify-content: center;
     width: 1184px;
     height: 20px;
-    padding: 0px;
+    padding-left: 20px;
     border-radius: 0px;
   }
+}
+
+.center {
+  text-align: center;
 }
 
 @media (max-width: 870px) {

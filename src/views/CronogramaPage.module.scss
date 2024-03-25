@@ -209,12 +209,18 @@ h2 {
   }
 }
 
-.Three{
+.Three {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 100px;
   align-items: center;
   max-width: 1000px;
+  @media (min-width: 800px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media (max-width: 800px) {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 
   .paragraph {
     font-size: var(--text-lg);
