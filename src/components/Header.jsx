@@ -28,7 +28,7 @@ export default function Header() {
               Metodologia y Actividades
             </Link>
             <Link to="/cronograma" className={styles.links}>
-              Cronograma
+              Contexto y Comunidad
             </Link>
             <Link to="/quienesSomos" className={styles.links}>
               ¿Quiénes Somos?

@@ -1,8 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import adolescentesImage from "../assets/adolescentesImage.jpeg";
-import aliadosImage from "../assets/aliadosImage.jpeg";
 import codigoImage from "../assets/codigoImage.jpeg";
-import contextoImage from "../assets/contextoImage.jpeg";
 import bannerImage from "../assets/home-banner.png";
 import imageFinalidad from "../assets/imageFinalidad.jpeg";
 import proposito2Image from "../assets/proposito2Image.jpeg";
@@ -52,20 +49,6 @@ export default function HomePage() {
           </div>
           <div className={styles.group}>
             <div className={styles.image}>
-              <img src={contextoImage} alt="" />
-            </div>
-            <div className={styles.content}>
-              <h3 className={styles.paragraph}>Contexto y Justificación</h3>
-              <p className={styles.paragraph}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus, aperiam nihil iusto error tenetur, quod quae
-                inventore, deleniti voluptas magni harum nobis eveniet tempora
-                dolores natus perferendis obcaecati vitae expedita?
-              </p>
-            </div>
-          </div>
-          <div className={styles.group}>
-            <div className={styles.image}>
               <img src={propositoImage} alt="" />
             </div>
             <div className={styles.content}>
@@ -105,34 +88,6 @@ export default function HomePage() {
                 programación, sino también ofrecer una guía concreta y apoyo
                 continuo para que los participantes puedan encontrar
                 oportunidades de trabajo digno en el área de tecnología.
-              </p>
-            </div>
-          </div>
-          <div className={styles.group}>
-            <div className={styles.image}>
-              <img src={adolescentesImage} alt="" />
-            </div>
-            <div className={styles.content}>
-              <h3 className={styles.paragraph}>Población Beneficiaria</h3>
-              <p className={styles.paragraph}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Delectus expedita reprehenderit, nisi facere numquam corporis
-                vel voluptatem praesentium, quibusdam nam laborum, quo cumque
-                eveniet modi? Omnis ratione enim provident qui!
-              </p>
-            </div>
-          </div>
-          <div className={styles.group}>
-            <div className={styles.image}>
-              <img src={aliadosImage} alt="" />
-            </div>
-            <div className={styles.content}>
-              <h3 className={styles.paragraph}>Aliados y Colaboradores</h3>
-              <p className={styles.paragraph}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                eaque id voluptatum, reiciendis numquam architecto repellat
-                facilis omnis dolore quae nam doloribus laborum dignissimos non
-                cum, blanditiis explicabo? Dolorem, ab!
               </p>
             </div>
           </div>
