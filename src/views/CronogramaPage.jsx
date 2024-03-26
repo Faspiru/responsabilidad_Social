@@ -22,7 +22,7 @@ export default function CronogramaPage() {
         <div className={styles.contentTitle}>
           <h1>Contexto y Comunidades del Proyecto</h1>
           <div className={styles.description}>
-            En esta sección se pueden visualizar la situación o problema que
+            En esta sección se puede visualizar la situación o problema que
             motiva el proyecto. Identificar quiénes serán los beneficiarios
             directos del proyecto, junto con sus necesidades e impactos. Al
             igual que las organizaciones que colaboraran en el proyecto
@@ -58,9 +58,7 @@ export default function CronogramaPage() {
                 En las comunidades de Venezuela, la falta de acceso a servicios
                 básicos como lo es la educacion de calidad, la alta tasa de
                 desempleo y la creciente vulnerabilidad estan presentes en el
-                dia a dia (Vergara, 2022 ). Esto hace que la capacitación en
-                habilidades demandadas, como la programación en Python, sea
-                crucial.
+                dia a dia (Vergara, 2022 ). 
               </p>
               <p className={styles.paragraph}>
                 <i>

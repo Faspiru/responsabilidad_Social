@@ -78,10 +78,7 @@ export default function ToursPage() {
               <strong> aprender haciendo </strong>
               donde incentivamos el aprendizaje gracias a ejercicios prácticos,
               esto combinado con explicaciones teóricas y presentaciones que
-              dejarán nuevos conocimientos. La metodología y actividades de este
-              proyecto están diseñadas para involucrar activamente a los
-              estudiantes y fomentar una integración significativa con la
-              comunidad.
+              dejarán nuevos conocimientos. 
             </p>
           </div>
         </div>
